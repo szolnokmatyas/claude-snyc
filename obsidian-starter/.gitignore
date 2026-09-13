@@ -1,0 +1,25 @@
+# A vault TARTALMA soha nem kerül verziókezelésbe.
+# Ez a repo csak a vázat és a sablonokat tárolja.
+00_inbox/*
+01_daily/*
+02_context/*
+03_work_popz/*
+04_hustles/*
+05_projects/*
+06_ideas/*
+07_notes/*
+08_people/*
+99_archive/*
+
+!**/.gitkeep
+!_templates/**
+!04_hustles/_pelda-hustle/
+!04_hustles/_pelda-hustle/**
+
+# Obsidian
+.obsidian/workspace*
+.obsidian/cache
+.trash/
+
+# macOS
+.DS_Store
