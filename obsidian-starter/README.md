@@ -5,15 +5,20 @@ felépüléshez, úgy felépítve, hogy Claude mindig képben legyen.
 
 ---
 
-## 1. Telepítés (iPhone, ~15 perc)
+## 1. Telepítés
+
+**iPhone + Windows PC:** a teljes, lépésenkénti leírás a
+[`SETUP-WINDOWS.md`](SETUP-WINDOWS.md)-ben van. Ott a sorrend számít
+(előbb iPhone, utána PC), ezért azt kövesd, ne ezt a rövid változatot.
+
+**Csak iPhone (vagy Mac is van):**
 
 1. **Obsidian** letöltése az App Store-ból.
 2. Első indításnál: *Create new vault* → név: `vault` → **`Store in iCloud` BE**.
    (Ez a kapcsoló később nem állítható át fájdalommentesen. Most kapcsold be.)
-3. Másold be ennek a mappának a tartalmát a vaultba:
-   - **Ha van Mac:** Finder → `iCloud Drive/Obsidian/vault/` → ide a tartalom.
-   - **Ha nincs Mac:** Files app → iCloud Drive → Obsidian → vault → beillesztés.
-     A `.gitignore` és a `README.md` nem kell át, a többi igen.
+3. Másold be ennek a mappának a tartalmát a vaultba — Files app →
+   iCloud Drive → Obsidian → vault. A `.gitignore`, `README.md` és
+   `SETUP-WINDOWS.md` nem kell át, a többi igen.
 4. Obsidian → Beállítások:
    - **Files & Links** → *Default location for new notes*: `00_inbox`
    - **Daily notes** (core plugin, kapcsold be) → mappa: `01_daily`,
