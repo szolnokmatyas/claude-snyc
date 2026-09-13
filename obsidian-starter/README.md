@@ -64,6 +64,32 @@ Másold át a `_templates/context-*.md` fájlokat a `02_context/` mappába,
 | Sablon | Új név | Mire jó |
 |---|---|---|
 | `context-master.md` | `00_MASTER.md` | A teljes kép. Ezt töltöd fel Claude-nak. |
+| `context-scoreboard.md` | `scoreboard.md` | A számok. Korai és késői jelzők. |
+| `context-dontesek.md` | `dontesek.md` | Döntési napló. |
+| `context-tokeallokacio.md` | `tokeallokacio.md` | Hová megy az idő és a pénz. |
+| `context-nem-csinalom.md` | `nem-csinalom.md` | Amire tudatosan nemet mondtál. |
+| `context-celok.md` | `celok.md` | 12 hónap / 90 nap / ez a hónap. |
+| `context-penzugyek.md` | `penzugyek.md` | Enélkül minden üzleti tanács vakrepülés. |
+| `context-rolam.md` | `rolam.md` | Hogyan működsz. Egyszer kitöltöd. |
+| `context-felepules.md` | `felepules.md` | **Privát.** Csak a személyes coach Projectbe. |
+
+## 3/b. A ritmus
+
+Ez tartja életben az egészet. A mappák önmagukban nem érnek semmit.
+
+| Mikor | Mennyi | Mit | Sablon |
+|---|---|---|---|
+| naponta | 3 perc | napi jegyzet, 3 prioritás | `napi.md` |
+| hetente | 20 perc | inbox nullára, pipeline, MASTER frissítés | `heti-review.md` |
+| havonta | 60 perc | scoreboard, minden aktív átnézése | `havi-review.md` |
+| negyedévente | fél nap | tőkeallokáció, rátesz/tartja/kivezet | `negyedeves-review.md` |
+
+A negyedéves a legfontosabb, és azt szokás leghamarabb lemondani.
+A heti és a havi arról szól, hogy jól csinálod-e. A negyedéves arról,
+hogy a jó dolgot csinálod-e.
+
+---|---|---|
+| `context-master.md` | `00_MASTER.md` | A teljes kép. Ezt töltöd fel Claude-nak. |
 | `context-rolam.md` | `rolam.md` | Hogyan működsz. Egyszer kitöltöd, ritkán változik. |
 | `context-celok.md` | `celok.md` | 12 hónap / 90 nap / ez a hónap. |
 | `context-penzugyek.md` | `penzugyek.md` | Enélkül minden hustle-tanács vakrepülés. |

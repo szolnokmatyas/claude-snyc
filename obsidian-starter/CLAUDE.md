@@ -18,7 +18,7 @@ projektek, napi jegyzetek, felépülés.
 |---|---|
 | `00_inbox/` | Nyers gyorsrögzítés. Rendezetlen, ellentmondásos lehet. Ne vedd készpénznek. |
 | `01_daily/` | Napi jegyzetek, `YYYY-MM-DD.md`. Nyers napló. |
-| `02_context/` | A kurált kép. Ezt tartjuk naprakészen. |
+| `02_context/` | A vezérlőpult. A kurált kép + a műszerek (scoreboard, döntési napló, tőkeallokáció). Ezt tartjuk naprakészen. |
 | `03_work_popz/` | Főmunka (Popz). |
 | `04_hustles/` | Egy mappa = egy vállalkozás/bevételi forrás. |
 | `05_projects/` | Időhöz kötött projektek, van végük. |
@@ -26,6 +26,41 @@ projektek, napi jegyzetek, felépülés.
 | `07_notes/` | Tartós tudás. |
 | `08_people/` | Emberek, kapcsolatok, ki miben tud segíteni. |
 | `99_archive/` | Lezárt. Csak akkor nézd, ha kifejezetten kérem. |
+
+## A vezérlőpult — `02_context/`
+
+Ezek a fájlok együtt adják ki a teljes képet. Ha stratégiai kérdést kapsz,
+ezekből dolgozz, ne a napi jegyzetekből.
+
+| Fájl | Mire való | Ritmus |
+|---|---|---|
+| `00_MASTER.md` | A teljes kép egy oldalon. Ezzel kezdd mindig. | hetente |
+| `scoreboard.md` | A számok. Korai és késői jelzők. | havonta |
+| `dontesek.md` | Döntési napló: mit döntöttem, mit vártam, mi lett. | folyamatos |
+| `tokeallokacio.md` | Hová megy az idő és a pénz, mit hoz vissza. | negyedévente |
+| `nem-csinalom.md` | Amire tudatosan nemet mondtam. | folyamatos |
+| `celok.md` | 12 hónap / 90 nap / ez a hónap. | negyedévente |
+| `penzugyek.md` | Fix kiadás, bevétel, tartalék, küszöbök. | havonta |
+| `rolam.md` | Hogyan működöm. | ritkán |
+| `felepules.md` | **Privát.** Soha nem hagyja el a vaultot. | folyamatos |
+
+## Ritmus
+
+| Mikor | Mennyi | Mit |
+|---|---|---|
+| naponta | 3 perc | napi jegyzet, 3 prioritás |
+| hetente | 20 perc | inbox nullára, pipeline, next actionök, MASTER |
+| havonta | 60 perc | scoreboard, minden aktív átnézése, döntések felülvizsgálata |
+| negyedévente | fél nap | tőkeallokáció, rátesz/tartja/kivezet döntés, 90 napos célok |
+
+Ha egy áttekintés esedékes és nem történt meg, szólj érte — egyszer, nem
+ismételgetve.
+
+## Amit kérdezz meg, ha stratégiai tanácsot kérek
+
+Ne adj üzleti tanácsot, amíg ezek nincsenek meg a `02_context/`-ben:
+tartalék hónapokban, fix havi kiadás, tényleges órabér hustle-önként.
+Enélkül a tanács vakrepülés — mondd meg, hogy hiányzik, és kérd be.
 
 ## Frontmatter-konvenció
 
@@ -52,6 +87,13 @@ szólj érte.
   hogy frissítjük a napi jegyzetekből.
 - Ha 2-nél több `status: active` hustle van, jelezd. Ez nálam figyelmeztető jel,
   nem teljesítmény.
+- Minden `status: active` hustle-nek van `pipeline.md`-je. Ha nincs benne élő
+  lehetőség, az nem aktív hustle, csak szándék — mondd ki.
+- Döntésnél, ami pénzbe, időbe vagy irányba kerül, ajánld fel, hogy felvesszük
+  a `dontesek.md`-be a sablon szerint. Ne csak az eredményt írd le — azt is,
+  mit vártam tőle és mikor nézzük újra.
+- Ha egy hustle elérte a saját, előre leírt kilépési pontját ("Miért ölném meg"),
+  hozd fel. Ne finomkodj vele.
 
 ## Amit soha
 
